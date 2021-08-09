@@ -1,0 +1,459 @@
+/* ==================== Global ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', sans-serif; 
+   
+}
+
+ul {
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+   margin: 0.625rem 1.25rem ;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*================= Navigation =====================*/
+
+
+#header {
+    height: 5rem;
+    border-bottom: 1px solid #0a0a0a;
+    display: flex;
+  
+    
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #7C5E99;
+    width: 100%;
+    font-family: 'Fira Code';
+  }
+
+  img.logo{
+      clip-path: circle();
+  }
+
+
+nav {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+
+ul.list {
+    list-style: square ;
+    color: #F25A70;
+    align-items: center; 
+}
+
+a.tittle{
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+  
+}
+
+
+
+a:click{
+    color: pink;
+}
+
+li{
+    margin-left: 30px;
+}
+
+ul a.tittle.CV{
+    background-color: #F25A70;
+    padding: 1rem 1.25rem;
+    text-align: center;   
+    border: 2px solid black;
+    box-shadow: 4px 4px  black;
+    margin-left: 40px
+    
+}
+
+/* ======================== Home ==================== */
+
+#home {
+    width: 100%;
+    height: 807px;  
+    
+    background-image: url(./assets/home.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+
+
+.name {
+    position: absolute;
+    width: 613.71px;
+    height: 184.93px;
+    left: 72px;
+    top: 206.81px;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 black;
+    text-align: center;
+    text-shadow: 4px 4px 2px black;
+}
+
+h1.homeh1{
+    padding-top: 47px;
+    bottom: 92px;
+    color: #00F000;
+    font-size: 2.5rem;
+    
+}
+
+h2.homeh2{
+    padding-top: 20px;
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+.subname a{ 
+    background-color: #F25A70;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'fira code';
+    box-shadow: 5px 5px black;
+
+}
+
+.subname .down{
+    position: absolute;
+    width: 166.4px;
+    height: 60.3px;
+    left: 105px;
+    top: 454.73px;
+    padding-top: 15px;
+}
+
+.subname .cont{
+    position: absolute;
+    width: 168px;
+    height: 60.3px;
+    left: 424px;
+    top: 454.73px;
+    padding-top: 15px;
+}
+
+hr.rounded{
+    
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to left, hotpink , #810ce0 ) ;
+   
+}
+
+
+/* =========================== Skills ============================*/
+
+
+#skills{
+   width: 100%;
+   height: 50rem;
+   background: linear-gradient(#e66465, #9198e5);
+   text-align: center;
+}
+
+
+h2.skill_title {
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color:white;
+    flex:100%;
+}
+
+div.habilidades{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+  
+  
+}
+
+.container_skills{
+    margin-bottom: 96px;
+
+}
+
+
+
+ul.lista_de_habilidades{
+   flex-direction: column;    
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+img.img_skill{
+    width: 80px;
+    height: 76px;
+}
+
+
+h4{
+    margin-left: 27px;
+    color: white
+}
+
+
+div.color1{
+    width: 365px;
+    height: 40px;
+    background: white;
+    border: 5px solid black;
+    margin-left: 27px;
+    margin-top:6px;
+}
+
+div.color2{
+    width: 50%;
+    height: 100%;
+    background: #7C5E99;
+    
+}
+
+hr.rounded.line2{
+    background: linear-gradient(to right, hotpink , #810ce0 ) ;
+}
+
+/*================= Projetos =====================*/
+
+section#projetos{
+    width: 100%;
+    height: 520px;
+    background: black;
+    text-align: center;
+  
+}
+
+#projetos h2{
+    color: white;  
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    flex:100%;
+}
+
+div.projetos_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+div.projetos_img img{
+    width: 280px;
+    height: 280px;
+}
+
+div.projetos_img img {
+    box-shadow: 10px 10px  white;
+}
+
+img.projeto1{
+    background: #4C5B84;
+    
+}
+
+img.projeto2{
+    background: gray;
+    
+
+}
+
+img.projeto3{
+    background: rgb(216, 14, 216);
+}
+
+.link_projeto{
+    margin-bottom: 40px;
+}
+
+hr.rounded.line3{
+    background: linear-gradient(to right, hotpink , #810ce0 ) ;
+}
+
+/*================= Projetos =====================*/
+
+#sobre{
+    width: 100%;
+    height: 783px;
+    background: #7C5E99;
+    text-align: center;
+}
+
+#sobre h2{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 50px auto 66px;
+}
+
+
+.anos_sobre{
+    justify-content: center;
+    color: #F25A70;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 9px;
+    gap: 5rem;
+}
+
+.linhaX_sobre{
+    display: flex;
+    
+}
+
+.linhas_sobre{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.alinhando{
+    margin-left: 32px;
+}
+
+.linha1{
+    width: 2.5rem;
+    border: 4px dashed black
+}
+
+.linha2{
+    width: 114.125rem;;
+    border: 4px solid black;
+}
+
+
+
+.linhaY_sobre{
+    height: 41px;
+    border: 5px dashed black;
+}
+
+
+picture#container_imagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seta{
+    
+    background: #F25A70 ;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    box-shadow: 5px 5px black;
+}
+
+.img1{
+    width: 220px;
+    height: 140px;
+    background: #CEB02A;
+    padding: 52px 20px;
+}
+
+.img2{
+    width: 140px;
+    height: 140px;
+}
+
+.img3{
+    width: 170;
+    height: 140;
+    background: #F25A70;
+    padding: 15px;
+}
+
+.img4{
+    width: 220px;
+    height: 140px;
+    background: #CEB02A;
+    padding: 52px 20px;
+}
+
+.img5{
+    width: 140px;
+    height: 140px;
+    background: #F25A70;
+    padding: 12px 15px;
+}
+
+.border{
+    border: 5px solid black;
+}
+
+.paragrafo_sobre{
+    width: 1280px;
+    height: 321px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height:39px;
+    color: #fff;
+    margin: 50px auto;
+    font-family: 'fira code';
+    text-align: left;
+}
+
+/*================= Projetos =====================*/
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: #06082d;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin_right{
+    margin-right: 40px;
+}
