@@ -318,7 +318,7 @@ hr.rounded.line3{
     background: linear-gradient(to right, hotpink , #810ce0 ) ;
 }
 
-/*================= Projetos =====================*/
+/*================= Sobre =====================*/
 
 #sobre{
     width: 100%;
@@ -362,12 +362,12 @@ hr.rounded.line3{
 }
 
 .linha1{
-    width: 2.5rem;
+    width: 5%;
     border: 4px dashed black
 }
 
 .linha2{
-    width: 114.125rem;;
+    width: 90%;
     border: 4px solid black;
 }
 
