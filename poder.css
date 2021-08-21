@@ -79,7 +79,7 @@ a.tittle{
   
 }
 
-a:before {
+a::before {
     content: " ";
     background-color: #F25A70;
     width: 10px;
