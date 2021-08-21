@@ -69,19 +69,23 @@ ul {
     
 }
 
-ul.list {
-    list-style: square ;
-    color: #F25A70;
-    align-items: center; 
-}
 
 a.tittle{
+    display: inline-flex;
     color: white;
     font-size: 20px;
     line-height: 26px;
+    align-items: center;
   
 }
 
+a:before {
+    content: " ";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px; ;
+}
 
 
 a:click{
