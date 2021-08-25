@@ -39,7 +39,7 @@ main{
     border-bottom: 10px solid #0a0a0a;
     display: flex;
    
-    background-color: #7C5E99;
+    background-color: #bf45e6;
     width: 100%;
     font-family: 'Fira Code';
 }
@@ -74,7 +74,7 @@ a.tittle{
   
 }
 
-a::before {
+ul li a.tittle::before {
     content: " ";
     background-color: #F25A70;
     width: 10px;
@@ -83,9 +83,6 @@ a::before {
 }
 
 
-a:click{
-    color: pink;
-}
 
 li{
     margin-left: 30px;
@@ -100,6 +97,13 @@ ul a.tittle.CV{
     margin-left: 40px
     
 }
+
+a.tittle.CV.efect:hover{
+    color: blueviolet;
+    background-color: gold;
+    
+}
+
 
 /* ======================== Home ==================== */
 
