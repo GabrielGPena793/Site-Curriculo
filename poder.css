@@ -74,6 +74,15 @@ a.tittle{
   
 }
 
+ul li a.tittle{
+    transition: transform 0.3s cubic-bezier(.67,1.8,.77,1.91);
+}
+
+ul li a.tittle:hover{
+    color: yellow;
+    transform: scale(1.08);
+}
+
 ul li a.tittle::before {
     content: " ";
     background-color: #F25A70;
@@ -94,11 +103,13 @@ ul a.tittle.CV{
     text-align: center;   
     border: 2px solid black;
     box-shadow: 4px 4px  black;
-    margin-left: 40px
+    margin-left: 40px;
+    transition: transform 0.3s cubic-bezier(.67,1.8,.77,1.91);
     
 }
 
-a.tittle.CV.efect:hover{
+.subname a:hover, a.tittle.CV.efect:hover{
+    transform: scale(1.08);
     color: blueviolet;
     background-color: gold;
     
@@ -152,6 +163,7 @@ h2.homeh2{
     font-size: 20px;
     font-family: 'fira code';
     box-shadow: 5px 5px black;
+    transition: transform 0.3s cubic-bezier(.67,1.8,.77,1.91);
 
 }
 
